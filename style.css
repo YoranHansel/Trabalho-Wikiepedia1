@@ -1,8 +1,26 @@
-.body{
-    background-color: aqua;
+body {
+    background-color: lightblue;
 }
 
-#titulo{
+#titulo {
     text-align: center;
-    align-items: center;
+}
+
+#p {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#imagens {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+#imagens img {
+    width: 300px;
+    height: auto; 
+    object-fit: cover; 
 }
